@@ -1,0 +1,16 @@
+.social_media{
+	display: flex;
+	justify-content: space-between;
+	width: 100px;
+	a{
+		font-size: 40px;
+		color: #fff;
+		transition: all .3s ease;
+		&.github:hover{
+		    color: #6e5494;
+		}
+		&.linkedin:hover{
+			color: #0077b5;
+		}
+	}
+}
