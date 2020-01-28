@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: 'Lato', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+main{
+	width: calc(100% - 240px);
+    margin: 0 0 0 auto;
 }
