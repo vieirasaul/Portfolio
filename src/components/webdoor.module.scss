@@ -1,0 +1,11 @@
+@import '../app.scss';
+.webdoor{
+	@include center-hv;
+	background-image: url('/img/home-banner.jpg');
+	background-size: cover;
+	height: 100%;
+	color: #fff;
+	display: flex;
+	text-align: center;
+	font-size: 40px;
+}
