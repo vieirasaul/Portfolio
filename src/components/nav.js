@@ -7,7 +7,8 @@ class Nav extends React.Component {
     	return (
     		<nav>
     			<ul>
-    				<li className={styles.active_link}><a href="">Sobre</a></li>
+                    <li className={styles.active_link}><a href="">Início</a></li>
+    				<li><a href="">Sobre</a></li>
     				<li><a href="">Portfolio</a></li>
     				<li><a href="">Experiência</a></li>
     				<li><a href="">Habilidades</a></li>
