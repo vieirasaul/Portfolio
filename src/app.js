@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/header.js';
+import Webdoor from './components/webdoor.js';
 
 class App extends React.Component {
   	render() {
@@ -8,7 +9,7 @@ class App extends React.Component {
     		<div>
     			<Header />
     			<main>
-    			
+    				<Webdoor />
     			</main>
     		</div>
 		);
