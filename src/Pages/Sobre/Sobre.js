@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styles from './Sobre.module.scss';
-import Avatar from '../Components/Avatar/Avatar.js';
-import Paragraph from '../Components/Paragraph/Paragraph.js';
+import Avatar from '../../Components/Avatar/Avatar.js';
+import Paragraph from '../../Components/Paragraph/Paragraph.js';
 
 class Sobre extends Component {
 	render() {
