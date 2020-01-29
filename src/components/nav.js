@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import styles from './nav.module.scss';
+import { Link } from 'react-router-dom';
 
 class Nav extends React.Component {
   	render() {
     	return (
     		<nav>
     			<ul>
-                    <li className={styles.active_link}><a href="">Início</a></li>
-    				<li><a href="">Sobre</a></li>
-    				<li><a href="">Portfolio</a></li>
-    				<li><a href="">Experiência</a></li>
-    				<li><a href="">Habilidades</a></li>
-    				<li><a href="">Contato</a></li>
+                    <li className={styles.active_link}><Link to ="/">Início</Link></li>
+    				<li><Link to ="/sobre">Sobre</Link></li>
+    				<li><Link to ="/portfolio">Portfolio</Link></li>
+    				<li><Link to ="/experiencia">Experiência</Link></li>
+    				<li><Link to ="/habilidades">Habilidades</Link></li>
+    				<li><Link to ="/contato">Contato</Link></li>
 				</ul>
     		</nav>
 		);
