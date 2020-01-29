@@ -6,6 +6,10 @@
 	height: 100%;
 	color: #fff;
 	display: flex;
-	text-align: center;
-	font-size: 40px;
+	flex-direction: column;
+	&>div{
+		text-align: center;
+		font-size: 40px;
+		flex: 0.12;
+	}
 }

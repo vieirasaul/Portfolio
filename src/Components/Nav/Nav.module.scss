@@ -8,7 +8,7 @@ nav{
 	    	display: flex;
 	    	@include center-hv;
 	    	height: 47px;
-	    	transition: all .2s ease;
+	    	transition: $default-transition;
 	    	a{
 	    		color: #fff;
 	    		text-decoration: none;

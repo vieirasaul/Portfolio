@@ -1,0 +1,13 @@
+@import '../../../App.scss';
+.webdoor_button{
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    transition: $default-transition;
+    &:hover{
+        background-color: $secondary-color;
+    }
+}
