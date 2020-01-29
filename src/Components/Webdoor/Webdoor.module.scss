@@ -7,9 +7,25 @@
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-	&>div{
+	position: relative;
+	.overlay{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0, .4);
+	}
+	.webdoor_content{
+		display: flex;
+		@include center-hv;
 		text-align: center;
 		font-size: 40px;
-		flex: 0.12;
+		flex-direction: column;
+		position: relative;
+		z-index: 3;
+		height: 100%;
+		width: 100%;
+		& > div{
+			flex: 0.12;
+		}
 	}
 }
