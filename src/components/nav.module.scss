@@ -9,10 +9,6 @@ nav{
 	    	@include center-hv;
 	    	height: 47px;
 	    	transition: all .2s ease;
-	    	&:hover,
-	    	&.active_link{
-	    		background-color: #5a5a5a;
-	    	}	
 	    	a{
 	    		color: #fff;
 	    		text-decoration: none;
@@ -22,6 +18,11 @@ nav{
 	    		height: 100%;
 	    		display: flex;
 	    		@include center-hv;
+	    		
+    			&:hover,	
+    			&.active_link{
+	    			background-color: $primary-color;
+	    		}	
 	    	}
 	    }
 	}

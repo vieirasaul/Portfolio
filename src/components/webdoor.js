@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import styles from './webdoor.module.scss';
 import Typist from 'react-typist';
 
