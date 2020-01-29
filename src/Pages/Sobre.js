@@ -1,19 +1,21 @@
-import React, { Component } from 'react';
-import styles from './Sobre.scss';
+import React, {Component} from 'react';
+import styles from './Sobre.module.scss';
+import Avatar from '../Components/Avatar/Avatar.js';
+import Paragraph from '../Components/Paragraph/Paragraph.js';
 
 class Sobre extends Component {
- render() {
- return (
-	<main>
-	
-		<p>In exercitation ea cillum duis sint est in cillum adipisicing ex.
-		Excepteur cillum est in aliqua ut veniam deserunt deserunt ea.
-		Lorem ipsum est labore officia adipisicing in consequat nisi exercitation
-		consectetur ea elit aliquip magna dolore fugiat voluptate.
-		Dolore ad irure consequat labore sunt ullamco minim consequat
-		in eu nulla minim. Dolor veniam irure nostrud esse incididunt est in qui proident.</p>
-	</main>	
- );
- }
+	render() {
+		return (
+			<main className={styles.sobre}>
+				<div className="container">
+					<Avatar />
+					<Paragraph>
+						<strong>Meu nome é Saul Vieira</strong>, tenho 24 anos consectetur adipiscing elit. 
+						In quis fermentum felis. Mauris id pulvinar tortor. Donec tincidunt magna eu tellus pellentesque commodo. Morbi aliquet facilisis turpis,id rutrum dui sodales et. Sed sed pulvinar nulla. Duis magna nulla, tincidunt sit amet suscipit et, congue vel massa. Vestibulum egestas blandit velit, vitae pharetra nibh tincidunt sed. Etiam leo libero, tincidunt ac nulla a, faucibus pharetra arcu. Mauris dapibus, dolor et faucibus aliquet, dui neque tincidunt quam, vitae malesuada arcu augue vel mi. Donec dignissim eget turpis ac molestie. Duis quis iaculis neque. Integer commodo, enim ut auctor vulputate, ipsum neque ullamcorper turpis, et malesuada arcu mi aliquam libero. Maecenas ex dolor, tempus at felis a, vulputate iaculis turpis. In posuere nunc in massa pulvinar euismod.
+					</Paragraph>
+				</div>
+			</main>	
+		);
+	}
 }
 export default Sobre;

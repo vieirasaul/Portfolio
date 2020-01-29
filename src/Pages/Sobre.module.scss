@@ -1,0 +1,6 @@
+@import '../App.scss';
+.sobre{
+    display: flex;
+    flex-direction: column;
+    @include center-hv;
+}
