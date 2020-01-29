@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './sobre.scss';
+import styles from './Sobre.scss';
 
 class Sobre extends Component {
  render() {

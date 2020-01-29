@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './header.module.scss';
-import Nav from './nav.js';
-import SocialMedia from './social-media.js';
+import styles from './Header.module.scss';
+import Nav from '../Nav/Nav.js';
+import SocialMedia from '../SocialMedia/Social-media.js';
 import { Link } from 'react-router-dom';
 
 class Header extends React.Component {

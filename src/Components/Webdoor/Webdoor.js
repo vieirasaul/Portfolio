@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './webdoor.module.scss';
+import styles from './Webdoor.module.scss';
 import Typist from 'react-typist';
 
 class Webdoor extends React.Component {

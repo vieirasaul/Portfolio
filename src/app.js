@@ -1,5 +1,5 @@
 import React from 'react';
-import Webdoor from './components/webdoor.js';
+import Webdoor from './Components/Webdoor/Webdoor.js';
 
 
 class App extends React.Component {

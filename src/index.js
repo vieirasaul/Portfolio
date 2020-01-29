@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import App from './app.js';
-import Sobre from './sobre.js';
-import Header from './components/header.js';
+import App from './App.js';
+import Sobre from './Pages/Sobre.js';
+import Header from './Components/Header/Header.js';
 import { BrowserRouter, Route } from 'react-router-dom'; 
 import { AnimatedSwitch } from 'react-router-transition';
 // import './index.css';
