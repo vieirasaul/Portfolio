@@ -3,7 +3,10 @@
     display: flex;
     flex-direction: column;
     @include center-hv;
-    & p{
+    padding-bottom: $main_padding;
+    p{
         text-align: center;
+        width: 700px;
+        margin: 0 auto;
     }
 }

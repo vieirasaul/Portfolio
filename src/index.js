@@ -15,12 +15,22 @@ ReactDOM.render(
 	<BrowserRouter>
 		<Header />
 		<AnimatedSwitch
-	      	atEnter={{ offset: -100 }}
-      		atLeave={{ offset: -100 }}
-      		atActive={{ offset: 0 }}
+	      	atEnter={{ 
+				opacity: 0,
+				scale: 0,
+			}}
+      		atLeave={{ 
+				opacity: 0,
+				scale: 0,
+			}}
+      		atActive={{ 
+				opacity: 1,
+				scale: 1,
+			}}
       		className="switch-wrapper"
 	    	mapStyles={(styles) => ({
-        		transform: `translateY(${styles.offset}%)`,
+				opacity: styles.opacity,
+				transform: `scale(${styles.scale})`,
       		})}
       	>
 			<Route path="/" exact={true} component={App} />

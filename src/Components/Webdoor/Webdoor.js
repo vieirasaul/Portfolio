@@ -7,17 +7,17 @@ class Webdoor extends React.Component {
   	render() {
     	return (
     		<section className={styles.webdoor}>
-				<div className={styles.overlay}>
-					<div className={styles.webdoor_content}>
-						<Typist>
+				<video className={styles.bg_video} src={ window.location.origin + "/video/bg-video.mp4" } loop autoPlay />
+				<div className={styles.webdoor_content}>
+						<img className={styles.logo} src={ window.location.origin + "/img/logo.png" }/>
+						<Typist className={styles.intro_text}>
 							Meu nome é Saul Vieira.
 							<Typist.Delay ms={500} />
 							<br />
 							Sou Desenvolvedor Front-end.
 						</Typist>
 						<SaibaMais />
-					</div>	
-				</div>
+					</div>
     		</section>
 		);
 	}
