@@ -10,8 +10,8 @@ class Sobre extends Component {
 				<div className="container">
 					<Avatar />
 					<Paragraph>
-						<strong>Meu nome é Saul Vieira</strong>, tenho 24 anos consectetur adipiscing elit. 
-						In quis fermentum felis. Mauris id pulvinar tortor. Donec tincidunt magna eu tellus pellentesque commodo. Morbi aliquet facilisis turpis,id rutrum dui sodales et. Sed sed pulvinar nulla. Duis magna nulla, tincidunt sit amet suscipit et, congue vel massa. Vestibulum egestas blandit velit, vitae pharetra nibh tincidunt sed. Etiam leo libero, tincidunt ac nulla a, faucibus pharetra arcu. Mauris dapibus, dolor et faucibus aliquet, dui neque tincidunt quam, vitae malesuada arcu augue vel mi. Donec dignissim eget turpis ac molestie. Duis quis iaculis neque. 
+						Meu nome é <strong>Saul Vieira</strong>, tenho 24 anos e trabalho como <strong>Desenvolvedor Front-end </strong> 
+						há pouco mais de 1 ano e meio.
 					</Paragraph>
 				</div>
 			</main>	
