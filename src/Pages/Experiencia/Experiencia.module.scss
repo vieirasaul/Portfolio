@@ -1,0 +1,13 @@
+@import '../../App.scss';
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    @include center-hv;
+    padding-bottom: $main_padding;
+    color: $secondary-color;
+    h1{
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 25px;
+    }
+}

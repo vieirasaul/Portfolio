@@ -1,0 +1,16 @@
+@import '../../App.scss';
+.experience_block{
+    padding-left: 40px;
+    &:not(:first-of-type){
+        margin-top: 35px;
+    }
+    h2{
+        text-transform: uppercase;
+        color: #5869ad;
+        margin-bottom: 5px;
+    }
+    p{
+        margin-top: 20px;
+        padding-left: 40px;
+    }
+}
