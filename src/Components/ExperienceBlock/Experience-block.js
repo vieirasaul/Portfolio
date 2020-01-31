@@ -3,7 +3,7 @@ import styles from './Experience-block.module.scss';
 
 const ExperienceBlock = ({children}) => {
 	return (
-		<div>
+		<div className={styles.experience_block}>
             {children}
 		</div>
 	);
