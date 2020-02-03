@@ -1,0 +1,5 @@
+@import '../../../App.scss';
+.white_button{
+    @include default-button;
+    margin-top: 25px;
+}

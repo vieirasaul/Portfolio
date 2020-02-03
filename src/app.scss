@@ -2,11 +2,30 @@
 	justify-content: center;
 	align-items: center;
 }
+@mixin default-button{
+	padding: 17px 30px;
+	font-size: 23px;
+	text-decoration: none;
+	border: 3px solid #fff;
+	width: fit-content;
+	transition: $default-transition;
+    font-family: $nav-font;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	font-weight: 300;
+	display: block;
+	color: $secondary-color;
+    &:hover{
+        background-color: $secondary-color;
+        color: $primary-color;
+        border: 3px solid transparent;
+    }
+}
 $primary-color: #181818;
 $secondary-color: #e7e7e7;
 $nav-font: 'Oswald', sans-serif;
 $body-font: 'Raleway', sans-serif;
-$container_width: 1200px;
-$vertical_distance: 70px;
-$main_padding: 130px;
+$container-width: 1200px;
+$vertical-distance: 70px;
+$main-padding: 130px;
 $default-transition: all .2s ease;

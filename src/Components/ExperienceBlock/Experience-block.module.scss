@@ -1,16 +1,17 @@
 @import '../../App.scss';
 .experience_block{
     padding-left: 40px;
-    &:not(:first-of-type){
-        margin-top: 35px;
+    &:not(:last-of-type){
+        margin-bottom: 25px;
     }
     h2{
         text-transform: uppercase;
         color: #5869ad;
         margin-bottom: 5px;
+        font-size: 23px;
     }
     p{
-        margin-top: 20px;
+        margin-top: 15px;
         padding-left: 40px;
     }
 }
