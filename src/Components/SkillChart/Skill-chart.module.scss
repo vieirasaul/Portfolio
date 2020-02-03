@@ -1,0 +1,15 @@
+@import '../../App.scss';
+.skill_chart{
+    width: 100%;
+    background-color: $skill-background;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    &:not(:last-of-type){
+        margin-bottom: 15px;
+    }
+    h2{
+        background-color: $terciary-color;
+        font-size: 21px;
+        padding: 10px 25px;
+    }
+}

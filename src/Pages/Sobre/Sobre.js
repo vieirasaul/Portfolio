@@ -6,7 +6,7 @@ import Paragraph from '../../Components/Paragraph/Paragraph.js';
 class Sobre extends Component {
 	render() {
 		return (
-			<main className={styles.sobre}>
+			<main className={styles.center_main}>
 				<div className="container">
 					<Avatar />
 					<Paragraph>
