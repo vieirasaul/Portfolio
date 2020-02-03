@@ -8,14 +8,14 @@ class Habilidades extends Component {
 			<main className={styles.center_main}>
 				<div className="container">
 					<h1>Habilidades</h1>
-                    <SkillChart ><h2 style={{ width: "80%" }}>Html</h2></SkillChart>
-                    <SkillChart ><h2 style={{ width: "70%" }}>Css</h2></SkillChart>
-                    <SkillChart ><h2 style={{ width: "40%" }}>JavaScript</h2></SkillChart>
-                    <SkillChart ><h2 style={{ width: "50%" }}>jQuery</h2></SkillChart>
-                    <SkillChart ><h2 style={{ width: "20%" }}>React</h2></SkillChart>
-                    <SkillChart ><h2 style={{ width: "40%" }}>Sass</h2></SkillChart>
-                    <SkillChart ><h2 style={{ width: "40%" }}>Git</h2></SkillChart>
-                    <SkillChart ><h2 style={{ width: "45%" }}>WordPress</h2></SkillChart>
+            <SkillChart ><h2 style={{ width: "80%" }}>Html</h2></SkillChart>
+            <SkillChart ><h2 style={{ width: "70%" }}>Css</h2></SkillChart>
+            <SkillChart ><h2 style={{ width: "45%" }}>JavaScript</h2></SkillChart>
+            <SkillChart ><h2 style={{ width: "50%" }}>jQuery</h2></SkillChart>
+            <SkillChart ><h2 style={{ width: "20%" }}>React</h2></SkillChart>
+            <SkillChart ><h2 style={{ width: "35%" }}>Sass</h2></SkillChart>
+            <SkillChart ><h2 style={{ width: "40%" }}>Git</h2></SkillChart>
+            <SkillChart ><h2 style={{ width: "35%" }}>WordPress</h2></SkillChart>
 				</div>
 			</main>	
 		);

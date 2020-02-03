@@ -5,6 +5,7 @@ import App from './app.js';
 import Sobre from './Pages/Sobre/Sobre.js';
 import Experiencia from './Pages/Experiencia/Experiencia.js';
 import Habilidades from './Pages/Habilidades/Habilidades.js';
+import Contato from './Pages/Contato/Contato.js';
 import Header from './Components/Header/Header.js';
 import { BrowserRouter, Route } from 'react-router-dom'; 
 import { AnimatedSwitch } from 'react-router-transition';
@@ -39,7 +40,7 @@ ReactDOM.render(
 			{/* <Route path="/portfolio" component={Portfolio} /> */}
 			<Route path="/experiencia" component={Experiencia} />
 			<Route path="/habilidades" component={Habilidades} />
-			{/* <Route path="/contato" component={Contato} /> */}
+			<Route path="/contato" component={Contato} />
 		</AnimatedSwitch>		
 	</ BrowserRouter>
 	,document.getElementById('root'));
