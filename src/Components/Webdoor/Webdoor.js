@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Webdoor.module.scss';
 import Typist from 'react-typist';
-import SaibaMais from '../Buttons/SaibaMais/Saiba-mais.js';
+import WhiteButton from '../Buttons/WhiteButton/White-button.js';
 
 class Webdoor extends React.Component {
   	render() {
@@ -16,7 +16,7 @@ class Webdoor extends React.Component {
 							<br />
 							Sou Desenvolvedor Front-end.
 						</Typist>
-						<SaibaMais />
+						<WhiteButton>Saiba mais</WhiteButton>
 					</div>
     		</section>
 		);
