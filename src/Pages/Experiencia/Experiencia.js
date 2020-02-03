@@ -6,7 +6,7 @@ import DownloadButton from '../../Components/Buttons/DownloadButton/Download-but
 class Experiencia extends Component {
 	render() {
 		return (
-			<main className={styles.experiencia}>
+			<main className={styles.center_main}>
 				<div className="container">
 					<h1>Experiência</h1>
                     <ExperienceBlock>

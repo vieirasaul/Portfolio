@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import styles from './Sobre.module.scss';
 import Avatar from '../../Components/Avatar/Avatar.js';
+import cx from 'classnames';
 import Paragraph from '../../Components/Paragraph/Paragraph.js';
 
 class Sobre extends Component {
 	render() {
 		return (
-			<main className={styles.sobre}>
+			<main className={cx(styles.center_main, styles.sobre)} >
 				<div className="container">
 					<Avatar />
 					<Paragraph>
