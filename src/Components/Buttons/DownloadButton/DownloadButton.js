@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Download-button.module.scss';
+import styles from './DownloadButton.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 
