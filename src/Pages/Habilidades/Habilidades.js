@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styles from './Habilidades.module.scss';
-import SkillChart from '../../Components/SkillChart/Skill-chart';
+import SkillChart from '../../Components/SkillChart/SkillChart';
 
 class Habilidades extends Component {
 	render() {

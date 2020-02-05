@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Skill-chart.module.scss';
+import styles from './SkillChart.module.scss';
 
 const SkillChart = ({children}) => {
 	return (

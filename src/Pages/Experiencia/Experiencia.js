@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styles from './Experiencia.module.scss';
-import ExperienceBlock from '../../Components/ExperienceBlock/Experience-block.js';
-import DownloadButton from '../../Components/Buttons/DownloadButton/Download-button.js';
+import ExperienceBlock from '../../Components/ExperienceBlock/ExperienceBlock';
+import DownloadButton from '../../Components/Buttons/DownloadButton/DownloadButton';
 
 class Experiencia extends Component {
 	render() {

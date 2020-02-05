@@ -1,0 +1,14 @@
+@import '../../../App.scss';
+.mail_button{
+    @include default-button;
+    margin: 25px auto;
+    background-color: $terciary-color;
+    border: 3px solid transparent;
+    &:hover{
+        background-color: $secondary-color;
+        color: $terciary-color;
+    }
+    svg{
+        margin-right: 7px;
+    }
+}
