@@ -11,28 +11,31 @@ class Portfolio extends Component {
                     <h1>Portfolio</h1>
                     <div className={styles.grid_portfolio}>
                         <PortfolioItem>
-                            <p>blublu</p>
+                            <h2>UniCarioca</h2>                            
                         </PortfolioItem>  
                         <PortfolioItem>
-                            <p>blublu</p>
+                            <h2>Jujuba Joias</h2>
                         </PortfolioItem>  
                         <PortfolioItem>
-                            <p>blublu</p>
+                            <h2>Instituto Ronald McDonald</h2>
                         </PortfolioItem>  
                         <PortfolioItem>
-                            <p>blublu</p>
+                            <h2>Comitê Internacional da Cruz Vermelha</h2>
                         </PortfolioItem>  
                         <PortfolioItem>
-                            <p>blublu</p>
+                            <h2>Anistia Internacional</h2>
                         </PortfolioItem>  
                         <PortfolioItem>
-                            <p>blublu</p>
+                            <h2>TV Escola</h2>
                         </PortfolioItem>  
                         <PortfolioItem>
-                            <p>blublu</p>
+                            <h2>São Carlos Saúde Oncológica</h2>
                         </PortfolioItem>  
                         <PortfolioItem>
-                            <p>blublu</p>
+                            <h2>Levin Rio</h2>
+                        </PortfolioItem>
+                        <PortfolioItem>
+                            <h2>Mario Groisman</h2>
                         </PortfolioItem>   
                     </div>
 				</div>

@@ -3,9 +3,11 @@ import styles from './PortfolioItem.module.scss';
 
 const PortfolioItem = ({children}) => {
 	return (
-		<div className={styles.grid_item}>
-            {children}
-		</div>
+		<a href="#" className={styles.grid_item}>
+            <div className={styles.item_content}>
+                {children}
+            </div>
+		</a>
 	);
 }
 

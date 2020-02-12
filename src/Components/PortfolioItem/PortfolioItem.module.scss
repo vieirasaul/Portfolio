@@ -1,12 +1,30 @@
 @import '../../App.scss';
 .grid_item{
-    transition: $default-transition;
     display: flex;
     @include center-hv;
     background-size: cover;
     color: $primary-color;
-    border-radius: 7px;
+    border-radius: $default-radius;
     &:hover{
-
+        .item_content{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .item_content{
+        opacity: 0;
+        visibility: hidden;
+        transition: $default-transition;
+        background-color: rgba(20, 170, 50, .5);
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 0 30px;
+        display: flex;
+        @include center-hv;
+        h2{
+            font-size: 22px;
+            color: $secondary-color;
+        }
     }
 }
