@@ -5,14 +5,14 @@ import App from './app.js';
 import Sobre from './Pages/Sobre/Sobre.js';
 import Experiencia from './Pages/Experiencia/Experiencia.js';
 import Header from './Components/Header/Header.js';
-import { BrowserRouter, Route } from 'react-router-dom'; 
+import { HashRouter, Route } from 'react-router-dom'; 
 import { AnimatedSwitch } from 'react-router-transition';
 // import './index.css';
 // import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-	<BrowserRouter>
+	<HashRouter>
 		<Header />
 		<AnimatedSwitch
 	      	atEnter={{ 
@@ -40,5 +40,5 @@ ReactDOM.render(
 			{/* <Route path="/habilidades" component={Habilidades} />
 			<Route path="/contato" component={Contato} /> */}
 		</AnimatedSwitch>		
-	</ BrowserRouter>
+	</ HashRouter>
 	,document.getElementById('root'));
