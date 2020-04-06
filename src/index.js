@@ -2,17 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './app.js';
-import Sobre from './Pages/Sobre/Sobre.js';
+import Contato from './Pages/Contato/Contato.js';
+import Habilidades from './Pages/Habilidades/Habilidades.js';
 import Experiencia from './Pages/Experiencia/Experiencia.js';
+import Portfolio from './Pages/Portfolio/Portfolio.js';
+import Sobre from './Pages/Sobre/Sobre.js';
 import Header from './Components/Header/Header.js';
-import { HashRouter, Route } from 'react-router-dom'; 
+import { BrowserRouter, Route } from 'react-router-dom'; 
 import { AnimatedSwitch } from 'react-router-transition';
 // import './index.css';
 // import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-	<HashRouter>
+	<BrowserRouter>
 		<Header />
 		<AnimatedSwitch
 	      	atEnter={{ 
@@ -35,10 +38,10 @@ ReactDOM.render(
       	>
 			<Route path="/" exact={true} component={App} />
 			<Route path="/sobre" component={Sobre} />
-			{/* <Route path="/portfolio" component={Portfolio} /> */}
+			<Route path="/portfolio" component={Portfolio} />
 			<Route path="/experiencia" component={Experiencia} />
-			{/* <Route path="/habilidades" component={Habilidades} />
-			<Route path="/contato" component={Contato} /> */}
+			<Route path="/habilidades" component={Habilidades} />
+			<Route path="/contato" component={Contato} />
 		</AnimatedSwitch>		
-	</ HashRouter>
+	</ BrowserRouter>
 	,document.getElementById('root'));

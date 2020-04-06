@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Experience-block.module.scss';
+import styles from './ExperienceBlock.module.scss';
 
 const ExperienceBlock = ({children}) => {
 	return (

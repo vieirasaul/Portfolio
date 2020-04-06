@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import styles from './Experiencia.module.scss';
-import ExperienceBlock from '../../Components/ExperienceBlock/Experience-block.js';
-import DownloadButton from '../../Components/Buttons/DownloadButton/Download-button.js';
+import ExperienceBlock from '../../Components/ExperienceBlock/ExperienceBlock';
+import DownloadButton from '../../Components/Buttons/DownloadButton/DownloadButton';
 
 class Experiencia extends Component {
 	render() {
 		return (
-			<main className={styles.experiencia}>
+			<main className={styles.center_main}>
 				<div className="container">
 					<h1>Experiência</h1>
                     <ExperienceBlock>

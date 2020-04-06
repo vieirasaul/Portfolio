@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Webdoor.module.scss';
 import Typist from 'react-typist';
-import WhiteButton from '../Buttons/WhiteButton/White-button.js';
+import WhiteButton from '../Buttons/WhiteButton/WhiteButton';
 
 class Webdoor extends React.Component {
   	render() {

@@ -1,3 +1,14 @@
+$primary-color: #181818;
+$secondary-color: #e7e7e7;
+$terciary-color: #5869ad;
+$skill-background: #5869ad96;
+$nav-font: 'Oswald', sans-serif;
+$body-font: 'Raleway', sans-serif;
+$container-width: 1200px;
+$vertical-distance: 70px;
+$main-padding: 130px;
+$default-transition: all .2s ease;
+
 @mixin center-hv{
 	justify-content: center;
 	align-items: center;
@@ -21,11 +32,9 @@
         border: 3px solid transparent;
     }
 }
-$primary-color: #181818;
-$secondary-color: #e7e7e7;
-$nav-font: 'Oswald', sans-serif;
-$body-font: 'Raleway', sans-serif;
-$container-width: 1200px;
-$vertical-distance: 70px;
-$main-padding: 130px;
-$default-transition: all .2s ease;
+.center_main{
+	display: flex;
+    flex-direction: column;
+    @include center-hv;
+    padding-bottom: $main-padding;
+}

@@ -1,0 +1,12 @@
+@import '../../App.scss';
+.grid_item{
+    transition: $default-transition;
+    display: flex;
+    @include center-hv;
+    background-size: cover;
+    color: $primary-color;
+    border-radius: 7px;
+    &:hover{
+
+    }
+}
