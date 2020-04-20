@@ -1,42 +1,36 @@
 import React, {Component} from 'react';
 import styles from './Portfolio.module.scss';
 import cx from 'classnames';
-import PortfolioItem from '../../Components/PortfolioItem/PortfolioItem';
+import { Link } from 'react-router-dom';
 
 class Portfolio extends Component {
+    state = {
+        projects: []
+    };
+
+    componentDidMount() {
+        fetch('data/portfolio.json')
+            .then(res => res.json())
+            .then(res => {
+                this.setState({
+                    projects: res
+                });
+            });
+    }
+
 	render() {
 		return (
 			<main className={cx(styles.center_main, styles.portfolio)} >
 				<div className="container">
                     <h1>Portfolio</h1>
                     <div className={styles.grid_portfolio}>
-                        <PortfolioItem>
-                            <h2>UniCarioca</h2>                            
-                        </PortfolioItem>  
-                        <PortfolioItem>
-                            <h2>Jujuba Joias</h2>
-                        </PortfolioItem>  
-                        <PortfolioItem>
-                            <h2>Instituto Ronald McDonald</h2>
-                        </PortfolioItem>  
-                        <PortfolioItem>
-                            <h2>Comitê Internacional da Cruz Vermelha</h2>
-                        </PortfolioItem>  
-                        <PortfolioItem>
-                            <h2>Anistia Internacional</h2>
-                        </PortfolioItem>  
-                        <PortfolioItem>
-                            <h2>TV Escola</h2>
-                        </PortfolioItem>  
-                        <PortfolioItem>
-                            <h2>São Carlos Saúde Oncológica</h2>
-                        </PortfolioItem>  
-                        <PortfolioItem>
-                            <h2>Levin Rio</h2>
-                        </PortfolioItem>
-                        <PortfolioItem>
-                            <h2>Mario Groisman</h2>
-                        </PortfolioItem>   
+                        {this.state.projects.map(item => (
+                            <Link className={styles.grid_item} key={item.id} style={{ backgroundImage: `url(${item.image})` }}>
+                                <div className={styles.mask}>
+                                    <h2>{item.name}</h2>
+                                </div>
+                            </Link> 
+                        ))}
                     </div>
 				</div>
 			</main>	

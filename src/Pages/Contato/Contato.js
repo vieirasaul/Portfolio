@@ -5,6 +5,7 @@ import Paragraph from '../../Components/Paragraph/Paragraph';
 import MailButton from '../../Components/Buttons/MailButton/MailButton';
 import SocialMedia from '../../Components/SocialMedia/SocialMedia';
 
+
 class Contato extends Component {
 	render() {
 		return (
