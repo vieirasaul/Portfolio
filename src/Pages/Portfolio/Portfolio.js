@@ -25,7 +25,7 @@ class Portfolio extends Component {
                     <h1>Portfolio</h1>
                     <div className={styles.grid_portfolio}>
                         {this.state.projects.map(item => (
-                            <Link className={styles.grid_item} key={item.id} style={{ backgroundImage: `url(${item.image})` }}>
+                            <Link className={styles.grid_item} key={item.id} style={{ backgroundColor: item.color, backgroundImage: `url(${item.image})` }}>
                                 <div className={styles.mask}>
                                     <h2>{item.name}</h2>
                                 </div>

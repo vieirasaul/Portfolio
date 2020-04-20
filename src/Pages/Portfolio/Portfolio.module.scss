@@ -15,11 +15,15 @@
             & .grid_item {
                 background-repeat: no-repeat;
                 background-position: center;
-                background-color: $terciary-color;
-                color: $secondary-color;
+                background-color: $secondary-color;
+                color: #fff;
                 text-decoration: none;
                 &:hover .mask {
                     opacity: 1;
+                    h2 {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
                 }
                 .mask {
                     transition: $default-transition;
@@ -30,7 +34,12 @@
                     padding: 20px;
                     height: 100%;
                     width: 100%;
-                    background-color: rgba(0, 0, 0, 0.4);
+                    background-color: rgba(0, 0, 0, 0.5);
+                    h2 {
+                        opacity: 0;
+                        transition: all .7s ease;
+                        transform: translateY(-15%);
+                    }
                 }
             }
         }

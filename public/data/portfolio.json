@@ -1,49 +1,41 @@
 [{
         "id": 1,
         "name": "Qualicorp",
-        "color": "#5869ad",
         "image": "./img/logo-qualicorp.png"
     },
     {
         "id": 2,
         "name": "UniCarioca",
-        "color": "#a01f22",
         "image": "./img/logo-unicarioca.png"
     },
     {
         "id": 3,
         "name": "Jujuba Jóias",
-        "color": "#f5a3a8",
         "image": "./img/logo-jujuba.png"
     },
     {
         "id": 4,
         "name": "Instituto Ronald McDonald",
-        "color": "#4872ae",
         "image": "./img/logo-irm.png"
     },
     {
         "id": 5,
         "name": "Lilly Laser Club",
-        "color": "#db826d",
         "image": "./img/logo-lilly.png"
     },
     {
         "id": 6,
         "name": "São Carlos",
-        "color": "#42bcbd",
         "image": "./img/logo-saocarlos.png"
     },
     {
         "id": 7,
         "name": "Mario Groisman",
-        "color": "#82817e",
         "image": "./img/logo-mario.png"
     },
     {
         "id": 8,
         "name": "Levin Rio",
-        "color": "#fffad1",
         "image": "./img/logo-levinrio.png"
     }
 ]
